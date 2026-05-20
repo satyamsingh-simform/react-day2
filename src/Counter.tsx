@@ -1,7 +1,11 @@
 import { useState } from "react";
 
-export default function Counter(props){
-    console.log(props);
+type DATA={
+    prop:string,
+}
+
+export default function Counter(props:DATA){
+    console.log('props:',props);
     const [count,setCount]=useState(0);
 
     return(
