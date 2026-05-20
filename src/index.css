@@ -2,8 +2,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  position: relative;
+  height: 100vh;
+}
 
-h1,p{
+h1,.para{
   text-align: center;
   margin-bottom: 50px;
 }
@@ -15,7 +19,7 @@ strong{
 }
 
 .container-btn{
-  margin-bottom: 250px;
+  margin-bottom: 110px;
   padding: 10px 20px;
   font-size: 1.1rem;
 }
@@ -43,4 +47,12 @@ button{
   border-radius: 5px;
   font-size: 1.2rem;
   background: linear-gradient(135deg,salmon);
+}
+
+.reason{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 100px;
+  position: absolute;
+  bottom: 0px;
 }
